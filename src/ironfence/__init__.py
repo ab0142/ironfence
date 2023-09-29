@@ -5,6 +5,8 @@ from typing import Any, AsyncGenerator, Generic, TypeVar
 
 import aiorwlock
 
+__version__ = "0.1.0"
+
 T = TypeVar("T")
 
 
