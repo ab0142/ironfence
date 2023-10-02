@@ -6,6 +6,14 @@ IronFence is a Python library that provides two types of synchronization primiti
 
 [^1]: IronFence doesn't protect against inter-process or intra-thread races. Use additional sync mechanisms like [multiprocessing.Lock](https://docs.python.org/3/library/multiprocessing.html#multiprocessing.Lock) or [threading.Lock](https://docs.python.org/3/library/threading.html#threading.Lock) for added protection.
 
+## Installation
+
+When pip is available, the distribution can be downloaded from PyPI and installed in one step:
+
+```python
+pip install ironfence
+```
+
 ## Mutex
 
 A `Mutex` (ashort for "mutual exclusion") is a synchronization primitive that allows only one coroutine to access a shared resource at a time. Other coroutines that attempt to acquire the lock will block until the current owner releases it.
