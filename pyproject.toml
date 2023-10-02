@@ -24,7 +24,7 @@ keywords = [
 # https://pypi.org/classifiers/
 classifiers = [
   "License :: OSI Approved :: MIT License",
-  "Development Status :: 2 - Pre-Alpha",
+  "Development Status :: 4 - Beta",
   "Environment :: Console",
   "Framework :: AsyncIO",
   "Framework :: Hatch",
